@@ -5,6 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <style>
+        #nome {
+            font-family: Helvetica, sans-serif;
+        }
+        span {
+            font-family: monospace, sans-serif;
+        }
+        body {
+            background-color: #c7f9cc;
+        }
+        .destaque {
+            text-decoration:underline;
+        }
+        .tamanho1 {
+            font-size: 30px;
+        }
+        .tamanho2 {
+            font-size: 28px;
+        }
+        .tamanho3 {
+            font-size: 26px;
+        }
+
+    </style>
 </head>
 <body>
     <h3>Índice</h3>
@@ -18,19 +42,21 @@
 
     <h1 id="nome">Ricardo Kühlkamp da Silva</h1>
     <img id="foto" src="./foto-ricardo.jpeg" alt="foto de Ricardo Kühlkamp da Silva" width="100px">
-    <p ><strong>Nacionalidade:</strong> brasileiro</p>
-    <p id="endereco"><strong>Endereço:</strong> Rua Paulo Kraisch, n. 27, apto 03</p>
-    <p><strong>Cidade:</strong> Luiz Alves/SC</p>
-    <p><strong>CEP:</strong> 89128-000</p>
-
+    <span>
+        <p class="destaque"><strong>Nacionalidade:</strong> brasileiro</p>
+        <p class="destaque" id="endereco"><strong>Endereço:</strong> Rua Paulo Kraisch, n. 27, apto 03</p>
+        <p class="destaque"><strong>Cidade:</strong> Luiz Alves/SC</p>
+        <p><strong>CEP:</strong> 89128-000</p>
+    </span>
+    
     <h2 id="habilidades">Habilidades</h2>
     <ul>
-        <li><em>Aprendizado rápido</em></li>
-        <li><em>Disposto a aprender novos conhecimentos</em></li>
-        <li><em>Comprometimento com o trabalho</em></li>
-        <li><em>Responsabilidade</em></li>
-        <li><em>Bom relacionamento</em></li>
-        <li><em>Honestidade</em></li>
+        <li class="tamanho1"><em>Aprendizado rápido</em></li>
+        <li class="tamanho1"><em>Disposto a aprender novos conhecimentos</em></li>
+        <li class="tamanho2"><em>Comprometimento com o trabalho</em></li>
+        <li class="tamanho2"><em>Responsabilidade</em></li>
+        <li class="tamanho3"><em>Bom relacionamento</em></li>
+        <li class="tamanho3"><em>Honestidade</em></li>
     </ul>
     <p><a href="#foto">Foto</a></p>
     <h2 id="blog">Blog preferido</h2>
