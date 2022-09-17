@@ -26,10 +26,20 @@ div {
 
 .foto {
     float: left;
-    width: 113px;
-    height: 200px;    
+    width: 100px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgb(33, 189, 46);   
+}
+
+.descricao {
+    position: absolute;
+    top: 30%;
+    left: 9%;
 }
 
 .foto-descricao-container {
     height: 200px;
+    position: relative;
+    
 }
