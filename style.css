@@ -56,3 +56,7 @@ body {
 ol li {
     display: inline;
 }
+
+ul li:nth-child(odd) {
+    background-color: rgb(33, 189, 46);
+}
