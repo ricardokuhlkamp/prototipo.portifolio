@@ -19,3 +19,17 @@ body {
 .tamanho3 {
     font-size: 26px;
 }
+
+div {
+    border: 2px solid green;
+}
+
+.foto {
+    float: left;
+    width: 113px;
+    height: 200px;    
+}
+
+.foto-descricao-container {
+    height: 200px;
+}
