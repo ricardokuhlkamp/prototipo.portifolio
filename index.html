@@ -4,34 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <style>
-        #nome {
-            font-family: Helvetica, sans-serif;
-        }
-        span {
-            font-family: monospace, sans-serif;
-        }
-        body {
-            background-color: #c7f9cc;
-        }
-        .destaque {
-            text-decoration:underline;
-        }
-        .tamanho1 {
-            font-size: 30px;
-        }
-        .tamanho2 {
-            font-size: 28px;
-        }
-        .tamanho3 {
-            font-size: 26px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./style.css">
+    <title>Portifólio</title>    
 </head>
 <body>
-    <h3>Índice</h3>
     <ol>
         <li><a href="#nome">Nome</a></li>
         <li><a href="#endereco">Endereço</a></li>
@@ -39,9 +15,17 @@
         <li><a href="#blog">Blog preferido</a></li>
 
     </ol>
-
-    <h1 id="nome">Ricardo Kühlkamp da Silva</h1>
-    <img id="foto" src="./foto-ricardo.jpeg" alt="foto de Ricardo Kühlkamp da Silva" width="100px">
+    <div>
+        <h1 id="nome">Ricardo Kühlkamp da Silva</h1>
+        <div class="foto-descricao-container">
+            <img id="foto" src="./foto-ricardo.jpeg" alt="foto de Ricardo Kühlkamp da Silva" width="100px">
+            <div class="descricao-container">
+                <p class="descricao">Sou engenheiro agrônomo de formação e atualmente estou em busca da migração de carreira para a aŕea de desenvolvimento de software, para isso curso a faculdade de desenvolvimento de sistemas da Uniassselvi e sou aluno da Trybe!</p>
+            </div>
+            
+        </div>        
+    </div>
+    
     <span>
         <p class="destaque"><strong>Nacionalidade:</strong> brasileiro</p>
         <p class="destaque" id="endereco"><strong>Endereço:</strong> Rua Paulo Kraisch, n. 27, apto 03</p>

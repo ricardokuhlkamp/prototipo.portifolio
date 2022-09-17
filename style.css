@@ -1,0 +1,58 @@
+body {
+    margin: 3%;
+}
+
+#nome {
+    font-family: Helvetica, sans-serif;
+}
+span {
+    font-family: monospace, sans-serif;
+}
+body {
+    background-color: #c7f9cc;
+}
+.destaque {
+    text-decoration:underline;
+}
+.tamanho1 {
+    font-size: 30px;
+}
+.tamanho2 {
+    font-size: 28px;
+}
+.tamanho3 {
+    font-size: 26px;
+}
+
+#foto {
+    float: left;
+    width: 100px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgb(33, 189, 46); 
+    position: relative;  
+}
+
+.descricao {
+    position: absolute;
+    padding: 5px;
+    left: 140px;
+    top: 50px;
+}
+
+.descricao-container{
+    position: relative;
+}
+
+.foto-descricao-container {
+    height: 200px;   
+}
+
+#nome {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol li {
+    display: inline;
+}
