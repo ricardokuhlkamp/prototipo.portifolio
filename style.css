@@ -1,0 +1,21 @@
+#nome {
+    font-family: Helvetica, sans-serif;
+}
+span {
+    font-family: monospace, sans-serif;
+}
+body {
+    background-color: #c7f9cc;
+}
+.destaque {
+    text-decoration:underline;
+}
+.tamanho1 {
+    font-size: 30px;
+}
+.tamanho2 {
+    font-size: 28px;
+}
+.tamanho3 {
+    font-size: 26px;
+}
