@@ -29,19 +29,23 @@ body {
     width: 100px;
     height: 180px;
     padding: 10px;
-    background-color: rgb(33, 189, 46);   
+    background-color: rgb(33, 189, 46); 
+    position: relative;  
 }
 
 .descricao {
     position: absolute;
-    top: 30%;
-    left: 9%;
+    padding: 5px;
+    left: 140px;
+    top: 50px;
+}
+
+.descricao-container{
+    position: relative;
 }
 
 .foto-descricao-container {
-    height: 200px;
-    position: relative;
-    
+    height: 200px;   
 }
 
 #nome {
